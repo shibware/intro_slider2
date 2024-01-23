@@ -115,7 +115,9 @@ class _IntroductionSliderState extends State<IntroductionSlider> {
                   children: [
                     const Spacer(),
                     widget.items[index].logo ?? const SizedBox(),
+                       const Spacer(),
                     widget.items[index].title ?? const SizedBox(),
+                       const Spacer(),
                     widget.items[index].subtitle ?? const SizedBox(),
                     const Spacer(),
                   ],
